@@ -1,0 +1,29 @@
+.sidebar {
+    width: 200px;
+    background-color: #e7dfef;
+    height: 100vh;
+    padding-top: 20px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu ul li {
+    padding: 15px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    transition: background 0.3s;
+  }
+  
+  .menu ul li:hover {
+    background-color: #d3c6e0;
+  }
+  
+  .menu ul li.active {
+    color: purple;
+  }
+  

@@ -1,0 +1,126 @@
+.cliente-page {
+    display: flex;
+    min-height: 100vh;
+    font-family: sans-serif;
+  }
+  
+  .sidebar {
+    width: 220px;
+    background-color: #eae4ee;
+    padding: 2rem 1rem;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .menu li:hover {
+    font-weight: bold;
+  }
+  
+  .cliente-conteudo {
+    flex: 1;
+    background-color: #d3d3d3;
+    padding: 2rem;
+  }
+  
+  .form-section {
+    display: flex;
+    background-color: #b3aeb0;
+    padding: 1rem;
+    border: 4px solid #aaa;
+    margin-bottom: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .left-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1;
+  }
+  
+  .right-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 2;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  .btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .procurar {
+    background-color: #4a30dc;
+    width: fit-content;
+  }
+  
+  .adicionar {
+    background-color: #00d000;
+  }
+  
+  .atualizar {
+    background-color: #f6c800;
+    color: #333;
+  }
+  
+  .deletar {
+    background-color: #e60000;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .table-section {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 1rem;
+    border: 2px solid black;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  

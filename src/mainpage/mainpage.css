@@ -1,0 +1,36 @@
+.pagina-principal {
+    display: flex;
+    height: 100vh;
+    font-family: sans-serif;
+  }
+  
+  .sidebar {
+    width: 220px;
+    background-color: #eae4ee;
+    padding: 2rem 1rem;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .menu li:hover {
+    font-weight: bold;
+  }
+  
+  .conteudo {
+    flex: 1;
+    background-color: #d3d3d3;
+    padding: 2rem;
+  }
+  
